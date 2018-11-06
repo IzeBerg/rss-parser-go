@@ -34,5 +34,5 @@ func ParseRSS(url string) (*RSS, error) {
 	if err3 != nil {
 		return nil, err3
 	}
-	return &rss, os.ErrNotExist
+	return &rss, nil
 }
