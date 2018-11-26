@@ -94,7 +94,7 @@ type Enclosure struct {
 type Category struct {
 	XMLName xml.Name `xml:"category"`
 	Domain  string   `xml:"domain,attr"`
-	Value   string   `xml:",innerxml"`
+	Value   string   `xml:",chardata"`
 }
 
 // <guid>http://some.server.com/weblogItem3207</guid>
