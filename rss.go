@@ -65,7 +65,7 @@ type Item struct {
 	Link        string   `xml:"link"`
 	Description string   `xml:"description"`
 	Author      string   `xml:"author,omitempty"`
-	Category    Category `xml:"category,omitempty"`
+	Category    []Category `xml:"category,omitempty"`
 	Comments    string   `xml:"comments,omitempty"`
 	Enclosure   Enclosure
 	Guid        Guid
